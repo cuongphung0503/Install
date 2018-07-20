@@ -1,0 +1,9 @@
+# Remove current apache & php 
+sudo yum remove httpd* php*
+
+# Install Apache 2.4
+sudo yum install httpd24
+
+# Install PHP 7.0 
+# automatically includes php70-cli php70-common php70-json php70-process php70-xml
+sudo yum install php70
